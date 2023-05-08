@@ -6,6 +6,11 @@
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Schematic diagram of a all MRR photonic neuron \cite {photonics9020120}\relax }}{7}{}%
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Schematic diagram of a PEMAN \cite {demarinisCodesignedIntegratedPhotonic2022}\relax }}{8}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic diagram of a 1x1 MZI\relax }}{10}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic diagram of the PEMAN structure\relax }}{11}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Timing diagram of the PEMAN structure\relax }}{11}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Algorithm for training on PEMAN\relax }}{14}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Accuracy values achieved by the model when trained with pre-quantized parameters\relax }}{16}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
