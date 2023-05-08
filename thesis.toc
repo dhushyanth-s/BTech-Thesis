@@ -1,8 +1,18 @@
-\contentsline {chapter}{ACKNOWLEDGEMENTS}{i}{chapter*.1}%
-\contentsline {chapter}{ABSTRACT}{ii}{chapter*.2}%
-\contentsline {chapter}{LIST OF TABLES}{iv}{chapter*.4}%
-\contentsline {chapter}{LIST OF FIGURES}{v}{chapter*.5}%
-\contentsline {chapter}{ABBREVIATIONS}{vi}{chapter*.6}%
-\contentsline {chapter}{NOTATION}{vii}{chapter*.7}%
-\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Artifical Neural Networks}{1}{section.1.1}%
+\contentsline {chapter}{List of Figures}{iv}{}%
+\contentsline {chapter}{List of Tables}{v}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}Artifical Neural Networks}{2}{}%
+\contentsline {section}{\numberline {1.2}Convolutional Neural Networks}{3}{}%
+\contentsline {section}{\numberline {1.3}Conventional Implementation of Neural Networks}{4}{}%
+\contentsline {section}{\numberline {1.4}Disadvantages of Conventional Implementation}{5}{}%
+\contentsline {chapter}{\numberline {2}Review of Prior Works}{6}{}%
+\contentsline {section}{\numberline {2.1}Section name}{6}{}%
+\contentsline {section}{\numberline {2.2}Conclusion}{6}{}%
+\contentsline {chapter}{\numberline {3}Algorithm I}{7}{}%
+\contentsline {section}{\numberline {3.1}Conclusion}{7}{}%
+\contentsline {chapter}{\numberline {4}Algorithm II}{8}{}%
+\contentsline {section}{\numberline {4.1}Construction}{8}{}%
+\contentsline {section}{\numberline {4.2}Improved Method}{8}{}%
+\contentsline {section}{\numberline {4.3}Conclusion}{8}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{9}{}%
+\contentsline {chapter}{References}{11}{}%
