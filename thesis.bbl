@@ -23,9 +23,23 @@
 \bibitem{Goodfellow-et-al-2016}
 I.~Goodfellow, Y.~Bengio, and A.~Courville, \emph{Deep Learning}.\hskip 1em plus 0.5em minus 0.4em\relax {MIT Press}.
 
+\bibitem{photonics9020120}
+\BIBentryALTinterwordspacing
+Y.~Han, S.~Xiang, Y.~Zhang, S.~Gao, A.~Wen, and Y.~Hao, ``An all-{{MRR-based}} photonic spiking neural network for spike sequence learning,'' vol.~9, no.~2. [Online]. Available: \url{https://www.mdpi.com/2304-6732/9/2/120}
+\BIBentrySTDinterwordspacing
+
+\bibitem{demarinisCodesignedIntegratedPhotonic2022}
+L.~De~Marinis, A.~Catania, P.~Castoldi, G.~Contestabile, P.~Bruschi, M.~Piotto, and N.~Andriolli, ``A codesigned integrated photonic electronic neuron.''
+
 \bibitem{NVIDIAT4Tensor}
 \BIBentryALTinterwordspacing
 {{NVIDIA T4 Tensor Core GPU}} for {{AI Inference}} | {{NVIDIA Data Center}}. [Online]. Available: \url{https://www.nvidia.com/en-us/data-center/tesla-t4/}
 \BIBentrySTDinterwordspacing
+
+\bibitem{8961101}
+F.~Shokraneh, M.~S. Nezami, and O.~Liboiron-Ladouceur, ``Theoretical and experimental analysis of a 4 × 4 reconfigurable {{MZI-Based}} linear optical processor,'' vol.~38, no.~6, pp. 1258--1267.
+
+\bibitem{chowdhery2022palm}
+A.~Chowdhery, S.~Narang, J.~Devlin, M.~Bosma, G.~Mishra, A.~Roberts, P.~Barham, H.~W. Chung, C.~Sutton, S.~Gehrmann, P.~Schuh, K.~Shi, S.~Tsvyashchenko, J.~Maynez, A.~Rao, P.~Barnes, Y.~Tay, N.~Shazeer, V.~Prabhakaran, E.~Reif, N.~Du, B.~Hutchinson, R.~Pope, J.~Bradbury, J.~Austin, M.~Isard, G.~Gur-Ari, P.~Yin, T.~Duke, A.~Levskaya, S.~Ghemawat, S.~Dev, H.~Michalewski, X.~Garcia, V.~Misra, K.~Robinson, L.~Fedus, D.~Zhou, D.~Ippolito, D.~Luan, H.~Lim, B.~Zoph, A.~Spiridonov, R.~Sepassi, D.~Dohan, S.~Agrawal, M.~Omernick, A.~M. Dai, T.~S. Pillai, M.~Pellat, A.~Lewkowycz, E.~Moreira, R.~Child, O.~Polozov, K.~Lee, Z.~Zhou, X.~Wang, B.~Saeta, M.~Diaz, O.~Firat, M.~Catasta, J.~Wei, K.~Meier-Hellstern, D.~Eck, J.~Dean, S.~Petrov, and N.~Fiedel, ``{{PaLM}}: {{Scaling}} language modeling with pathways.''
 
 \end{thebibliography}

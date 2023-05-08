@@ -411,6 +411,21 @@ INPUT ./images/cnn.png
 INPUT images/cnn.png
 INPUT ./images/cnn.png
 INPUT ./images/cnn.png
+INPUT ./images/cascadedMZI.png
+INPUT ./images/cascadedMZI.png
+INPUT images/cascadedMZI.png
+INPUT ./images/cascadedMZI.png
+INPUT ./images/cascadedMZI.png
+INPUT ./images/cascadedMRR.png
+INPUT ./images/cascadedMRR.png
+INPUT images/cascadedMRR.png
+INPUT ./images/cascadedMRR.png
+INPUT ./images/cascadedMRR.png
+INPUT ./images/peman.png
+INPUT ./images/peman.png
+INPUT images/peman.png
+INPUT ./images/peman.png
+INPUT ./images/peman.png
 INPUT ./chapters/chapter2.tex
 INPUT ./chapters/chapter2.tex
 INPUT ./chapters/chapter2.tex
@@ -455,6 +470,7 @@ INPUT ./thesis.bbl
 INPUT thesis.bbl
 INPUT ./thesis.bbl
 INPUT thesis.bbl
+INPUT /usr/local/texlive/2023basic/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT thesis.aux
 INPUT ./chapters/title.aux
 INPUT chapters/title.aux
@@ -480,6 +496,7 @@ INPUT chapters/chapter4.aux
 INPUT ./chapters/futurework.aux
 INPUT chapters/futurework.aux
 INPUT chapters/futurework.aux
+INPUT /Users/dhushyanth/Library/texlive/2023basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk
 INPUT /usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb

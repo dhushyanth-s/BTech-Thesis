@@ -52,3 +52,52 @@ Even with the advent of ASICs in Machine learning space, the field still suffers
 \section{Disadvantages of Conventional Implementation}
 
 The conventional implementation of neural networks has a number of disadvantages. The most prominent one being the fact that the hardware is not really coupled with the software. The hardware is not really designed to perform neural network computations and is not really efficient at it. Large amounts of power are required to train models for prolonged amounts of time. This leads to a lot of inefficiencies in the system.
+
+\section{Photonic Neuron}
+
+As discussed, the conventional implementation of neural networks has a number of disadvantages. The hardware is not really designed to perform neural network computations and is not really efficient at it. This sparks the question "What can be a proper hardware implementation of neuron, the basic structure of a neural network, that can be used to perform neural network computations efficiently?". The answer to this question that this thesis proposes is the Photonic Neuron.
+
+The photonic neuron exploits the fact that multiplication can be done essentially for free in the photonics domain through the use fo hardware like Mach-Zehnder Interferometers or Micro-Ring Resonators. Photonics is known to be inherently very fast since most of the operations are done in speeds close to the speed of light. This makes it a very good candidate for the speed up of existing hardware implementation.
+
+Many prospective applications become blaringly obvious when we consider the speeds that photonics really has to offer. When we also consider the power efficiency of such a implementation, we can see the possibilities. Easily identifiable applications include on-device deployments of trained models for applications like self-driving cars, drones, etc. These require highly power efficient and latentcy-less neural network implementation which photonics can offer.
+
+\section{Diiferent Architectures of Photonic Neurons}
+
+There are a number of different architectures of photonic neurons that have been proposed. Some of them are discussed below.
+
+One possible implementation is cascading a number of Mach-Zehnder Interferometers (MZIs) to perform the multiplication operation \cite{8961101}. MZIs can be efficiently used to achieve multiplication. Thus a series of MZIs can be cascaded as per the requirement of the model the achieve an efficient implementation of the neural network.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.7]{images/cascadedMZI.png}
+	\caption{Schematic diagram of a 4x4 MZI based photonic neuron}
+	\label{mzi}
+\end{figure}
+
+As is evident from the picture, the hardware complexity grows exponentially as the number of parameters increase, which is not really practical as the number of parameters in a neural network is usually very large, even reaching billions at times \cite{chowdhery2022palm}. This makes the implementation of such a system very difficult.
+
+Another approach to making neural networks in photonics domain is using MicroRing Resonators (MRRs). This uses multiple MRRs in a cascaded fashion to implement a complete spiking neural network \cite{photonics9020120}. Although cascading MRR is somewhat better than cascading MZIs, it still suffers from the same problem of exponential growth of hardware complexity.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.7]{images/cascadedMRR.png}
+	\caption{Schematic diagram of a all MRR photonic neuron \cite{photonics9020120}}
+\end{figure}
+
+One way to overcome this issue is to use one resuable component for the repetitive operations of the neural network. Just like how GPU were employed for neural net calculations because they were efficient at parallel and repeptetive operations, we can use a small reusable neuron and reuse for the entire neural network.
+
+Following in this path, the structure known as PEMAN was introduced \cite{demarinisCodesignedIntegratedPhotonic2022}. PEMAN stands for Photonic Electronic Multipication Accumulation Neuron. It proposes a hybrid photonic electronic neuron that can be reused many times to implement a complete neural network. The structure of PEMAN is shown in figure \ref{peman}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{images/peman.png}
+	\caption{Schematic diagram of a PEMAN \cite{demarinisCodesignedIntegratedPhotonic2022}}
+	\label{peman}
+\end{figure}
+
+\section{Motivation}
+
+The motivation behind this thesis is to explore the possibility of using a PEMAN like structure to implement a complete neural network. The PEMAN structure is a very good candidate for the implementation of a neural network in the photonic domain. It is highly reusable and can be used to implement a complete neural network. The PEMAN structure is also highly power efficient and can be used to implement a neural network that is highly power efficient.
+
+In particular, this thesis aims to explore the creation of a artifical neural network and convolutional neural network architecture using the PEMAN structure. It also tries to explore the process of training on the said hardware implementation and study the accuracy, ENOB and time efficiency of the system.
+
