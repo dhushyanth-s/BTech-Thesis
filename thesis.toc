@@ -1,5 +1,5 @@
-\contentsline {chapter}{List of Figures}{iv}{}%
-\contentsline {chapter}{List of Tables}{v}{}%
+\contentsline {chapter}{List of Figures}{vii}{}%
+\contentsline {chapter}{List of Tables}{ix}{}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}Artifical Neural Networks}{2}{}%
 \contentsline {section}{\numberline {1.2}Convolutional Neural Networks}{3}{}%
@@ -19,11 +19,11 @@
 \contentsline {subsection}{\numberline {2.3.2}Training on PEMAN}{12}{}%
 \contentsline {section}{\numberline {2.4}Algorithm for training on PEMAN}{13}{}%
 \contentsline {section}{\numberline {2.5}PEMAN Structure and Handwritten Digit Recognition}{15}{}%
-\contentsline {chapter}{\numberline {3}Algorithm I}{17}{}%
-\contentsline {section}{\numberline {3.1}Conclusion}{17}{}%
-\contentsline {chapter}{\numberline {4}Algorithm II}{18}{}%
-\contentsline {section}{\numberline {4.1}Construction}{18}{}%
-\contentsline {section}{\numberline {4.2}Improved Method}{18}{}%
-\contentsline {section}{\numberline {4.3}Conclusion}{18}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{19}{}%
-\contentsline {chapter}{References}{21}{}%
+\contentsline {chapter}{\numberline {3}CNN Architecture}{17}{}%
+\contentsline {section}{\numberline {3.1}Principle}{17}{}%
+\contentsline {section}{\numberline {3.2}PEMAN for CNN}{18}{}%
+\contentsline {section}{\numberline {3.3}Timing Diagram}{19}{}%
+\contentsline {chapter}{\numberline {4}Handwritten Text Detection using PEMAN based CNN architecture}{21}{}%
+\contentsline {section}{\numberline {4.1}Optimization}{22}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{25}{}%
+\contentsline {chapter}{References}{27}{}%

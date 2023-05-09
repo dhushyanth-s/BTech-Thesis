@@ -12,5 +12,8 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Algorithm for training on PEMAN\relax }}{14}{}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Accuracy values achieved by the model when trained with pre-quantized parameters\relax }}{16}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Convolution operation\relax }}{18}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Timing diagram for CNN\relax }}{19}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribution of weights\relax }}{23}{}%
 \addvspace {10\p@ }

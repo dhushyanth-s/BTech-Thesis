@@ -1,16 +1,25 @@
-INFO:  latexindent version 3.21, 2023-05-01, a script to indent .tex files
-       latexindent lives here: /usr/local/texlive/2023basic/texmf-dist/scripts/latexindent/
-       Tue May  9 04:47:07 2023
-       Filename: /Users/dhushyanth/Study/BTP/BTech-Thesis/chapters/__latexindent_temp_chapter2.tex
+INFO:  latexindent.pl version 3.20.3, 2023-02-19, a script to indent .tex files
+       latexindent.pl lives here: C:/Users/dhush/AppData/Local/Programs/MiKTeX/scripts/latexindent/
+       Tue May  9 06:26:32 2023
+       Filename: d:/Study/BTP/Thesis/iitp_thesis/chapters/__latexindent_temp_PemanCnn.tex
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
        -c|--cruft: cruft directory
-INFO:  Directory for backup files and /Users/dhushyanth/Study/BTP/BTech-Thesis//indent.log:
-       /Users/dhushyanth/Study/BTP/BTech-Thesis/
+INFO:  Directory for backup files and d:/Study/BTP/Thesis/iitp_thesis//indent.log:
+       d:/Study/BTP/Thesis/iitp_thesis/
+INFO:  Perl modules are being loaded from the following directories:
+       C:/Strawberry/perl/lib/FindBin.pm
+       C:/Strawberry/perl/vendor/lib/YAML/Tiny.pm
+       C:/Strawberry/perl/lib/File/Copy.pm
+       C:/Strawberry/perl/lib/File/Basename.pm
+       C:/Strawberry/perl/lib/Getopt/Long.pm
+       C:/Strawberry/perl/vendor/lib/File/HomeDir.pm
+INFO:  LatexIndent perl modules are being loaded from, for example:
+       C:/Users/dhush/AppData/Local/Programs/MiKTeX/scripts/latexindent/LatexIndent/Document.pm
 INFO:  YAML settings read: defaultSettings.yaml
-       Reading defaultSettings.yaml from /usr/local/texlive/2023basic/texmf-dist/scripts/latexindent/defaultSettings.yaml
+       Reading defaultSettings.yaml from C:/Users/dhush/AppData/Local/Programs/MiKTeX/scripts/latexindent/defaultSettings.yaml
 INFO:  YAML reading settings
-       Home directory is /Users/dhushyanth
+       Home directory is C:\Users\dhush
        latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
        see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
 INFO:  YAML settings read: -y switch
