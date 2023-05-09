@@ -94,7 +94,18 @@ Through using this technique, we employ the same backpropogation technique that 
 
 \section{PEMAN Structure and Handwritten Digit Recognition}
 
-In order the study the practical implications of using such an approach, the handwritten digit recognition problem is used. The handwritten digit recognition problem is a classification problem where the goal is to classify a given handwritten digit into one of the 10 classes. The dataset used for this problem is the MNIST dataset. The MNIST dataset consists of 60,000 training images and 10,000 testing images. The images are grayscale images of size 28x28. The dataset is split into training and testing sets with a ratio of 6:1.
+In order the study the practical implications of using such an approach, the handwritten digit recognition problem is used. The handwritten digit recognition problem is a classification problem where the goal is to classify a given handwritten digit into one of the 10 classes.
+
+The complete flowchart as to how this entire training process takes place is illustrated in figure \ref{compFLowchart}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{images/compFLowchart.png}
+	\caption{Complete flowchart of the training process using PEMAN}
+	\label{compFLowchart}
+\end{figure}
+
+The dataset used for this problem is the MNIST dataset. The MNIST dataset consists of 60,000 training images and 10,000 testing images. The images are grayscale images of size 28x28. The dataset is split into training and testing sets with a ratio of 6:1.
 
 The model used for this problem is a simple feedforward neural network with 1 hidden layer. The input layer has $28 \cdot 28 = 784$ parameters. The hidden layer has 100 parameters. The output layer has 10 parameters. The activation function used is the ReLU function. The loss function used is the cross entropy loss function. The optimizer used is the Adam optimizer. The model is trained for 10 epochs with a batch size of 64.
 

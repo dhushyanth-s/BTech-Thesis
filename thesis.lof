@@ -10,12 +10,13 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic diagram of the PEMAN structure\relax }}{11}{}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Timing diagram of the PEMAN structure\relax }}{11}{}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Algorithm for training on PEMAN\relax }}{14}{}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Accuracy values achieved by the model when trained with pre-quantized parameters\relax }}{16}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Complete flowchart of the training process using PEMAN\relax }}{16}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Accuracy values achieved by the model when trained with pre-quantized parameters\relax }}{17}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Convolution operation\relax }}{18}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Timing diagram for CNN\relax }}{19}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Convolution operation\relax }}{20}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Timing diagram for CNN\relax }}{21}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribution of weights\relax }}{23}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribution of weights\relax }}{25}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Random scanning of the image\relax }}{26}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Random scanning of the image\relax }}{28}{}%
 \addvspace {10\p@ }

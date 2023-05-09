@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.8)  9 MAY 2023 07:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.8)  9 MAY 2023 07:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -246,23 +246,23 @@ Package color Info: Driver file: pdftex.def on input line 149.
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box98
-) (./thesis.aux (./chapters/title.aux) (./chapters/certificate.aux) (./chapters/acknowledgement.aux) (./chapters/introduction.aux) (./chapters/peman.aux) (./chapters/cnn.aux) (./chapters/PemanCnn.aux) (./chapters/randomScanning.aux) (./chapters/futurework.aux))
+) (./thesis.aux (./chapters/title.aux) (./chapters/certificate.aux) (./chapters/acknowledgement.aux) (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/peman.aux) (./chapters/cnn.aux) (./chapters/PemanCnn.aux) (./chapters/randomScanning.aux) (./chapters/futurework.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
  (/usr/local/texlive/2023basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count296
@@ -333,26 +333,28 @@ Package pdftex.def Info: iitp_logo-eps-converted-to.pdf  used on input line 17.
 
 
 
-] (./thesis.toc [5
+]
+\openout2 = `chapters/abstract.aux'.
+
+ (./chapters/abstract.tex) [5
+
+
+] [6
+
+
+
+] (./thesis.toc [7
 
 ])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [6] (./thesis.lof)
+ [8] (./thesis.lof)
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [7
-
-
-] [8
-
-] (./thesis.lot)
-\tf@lot=\write5
-\openout5 = `thesis.lot'.
-
  [9
+
 
 ] [10
 
@@ -435,53 +437,58 @@ File: images/trainOnPemanAlgo.png Graphic file (type png)
 Package pdftex.def Info: images/trainOnPemanAlgo.png  used on input line 88.
 (pdftex.def)             Requested size: 462.52757pt x 444.20863pt.
  [13] [14 <./images/trainOnPemanAlgo.png>]
-<images/trainingOnPeman.png, id=119, 783.92876pt x 601.24625pt>
+<images/compFLowchart.png, id=119, 955.57pt x 981.6675pt>
+File: images/compFLowchart.png Graphic file (type png)
+<use images/compFLowchart.png>
+Package pdftex.def Info: images/compFLowchart.png  used on input line 103.
+(pdftex.def)             Requested size: 462.52757pt x 475.1495pt.
+<images/trainingOnPeman.png, id=120, 783.92876pt x 601.24625pt>
 File: images/trainingOnPeman.png Graphic file (type png)
 <use images/trainingOnPeman.png>
-Package pdftex.def Info: images/trainingOnPeman.png  used on input line 107.
+Package pdftex.def Info: images/trainingOnPeman.png  used on input line 118.
 (pdftex.def)             Requested size: 462.52757pt x 354.75055pt.
-) [15] [16 <./images/trainingOnPeman.png>]
+ [15] [16 <./images/compFLowchart.png>] [17 <./images/trainingOnPeman.png>]) [18]
 
 \openout2 = `chapters/cnn.aux'.
 
 (./chapters/cnn.tex
 Chapter 3.
-<images/convolution.png, id=128, 328.8285pt x 265.59225pt>
+<images/convolution.png, id=136, 328.8285pt x 265.59225pt>
 File: images/convolution.png Graphic file (type png)
 <use images/convolution.png>
 Package pdftex.def Info: images/convolution.png  used on input line 11.
 (pdftex.def)             Requested size: 231.26378pt x 186.79675pt.
-[17
+[19
 
 
 
 
 
-] [18 <./images/convolution.png>]
-<images/convtiming.png, id=136, 805.20825pt x 404.10976pt>
+] [20 <./images/convolution.png>]
+<images/convtiming.png, id=145, 805.20825pt x 404.10976pt>
 File: images/convtiming.png Graphic file (type png)
 <use images/convtiming.png>
 Package pdftex.def Info: images/convtiming.png  used on input line 34.
 (pdftex.def)             Requested size: 462.52757pt x 232.13315pt.
- [19 <./images/convtiming.png>]) [20]
+ [21 <./images/convtiming.png>]) [22]
 
 \openout2 = `chapters/PemanCnn.aux'.
 
 (./chapters/PemanCnn.tex
 Chapter 4.
-[21
+[23
 
 
 
 
 
 ]
-<images/weightdist.png, id=148, 408.3255pt x 337.5009pt>
+<images/weightdist.png, id=156, 408.3255pt x 337.5009pt>
 File: images/weightdist.png Graphic file (type png)
 <use images/weightdist.png>
 Package pdftex.def Info: images/weightdist.png  used on input line 17.
 (pdftex.def)             Requested size: 462.52757pt x 382.30885pt.
-) [22] [23 <./images/weightdist.png>] [24
+) [24] [25 <./images/weightdist.png>] [26
 
 
 
@@ -491,16 +498,16 @@ Package pdftex.def Info: images/weightdist.png  used on input line 17.
 
 (./chapters/randomScanning.tex
 Chapter 5.
-[25
+[27
 
 
 ]
-<images/randomScanning.png, id=163, 766.865pt x 632.3625pt>
+<images/randomScanning.png, id=171, 766.865pt x 632.3625pt>
 File: images/randomScanning.png Graphic file (type png)
 <use images/randomScanning.png>
 Package pdftex.def Info: images/randomScanning.png  used on input line 23.
 (pdftex.def)             Requested size: 370.02347pt x 305.12265pt.
-) [26 <./images/randomScanning.png>] [27] [28
+) [28 <./images/randomScanning.png>] [29] [30
 
 
 
@@ -510,30 +517,30 @@ Package pdftex.def Info: images/randomScanning.png  used on input line 23.
 
 (./chapters/futurework.tex
 Chapter 6.
-[29
+[31
 
 
-]) [30]
+]) [32]
 
-(./thesis.bbl [31
-
-
+(./thesis.bbl [33
 
 
-]) [32] (./thesis.aux (./chapters/title.aux) (./chapters/certificate.aux) (./chapters/acknowledgement.aux) (./chapters/introduction.aux) (./chapters/peman.aux) (./chapters/cnn.aux) (./chapters/PemanCnn.aux) (./chapters/randomScanning.aux) (./chapters/futurework.aux)) ) 
+
+
+]) [34] (./thesis.aux (./chapters/title.aux) (./chapters/certificate.aux) (./chapters/acknowledgement.aux) (./chapters/abstract.aux) (./chapters/introduction.aux) (./chapters/peman.aux) (./chapters/cnn.aux) (./chapters/PemanCnn.aux) (./chapters/randomScanning.aux) (./chapters/futurework.aux)) ) 
 Here is how much of TeX's memory you used:
- 4391 strings out of 477476
- 80730 string characters out of 5824245
- 1856388 words of memory out of 5000000
- 24522 multiletter control sequences out of 15000+600000
+ 4420 strings out of 477476
+ 81841 string characters out of 5824245
+ 1857388 words of memory out of 5000000
+ 24547 multiletter control sequences out of 15000+600000
  524247 words of font info for 72 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  69i,7n,79p,907b,343s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/dhushyanth/Library/texlive/2023basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (44 pages, 1312763 bytes).
+Output written on thesis.pdf (46 pages, 1501252 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
+ 250 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4,6 +4,7 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: chapters/title.aux
 A level-1 auxiliary file: chapters/certificate.aux
 A level-1 auxiliary file: chapters/acknowledgement.aux
+A level-1 auxiliary file: chapters/abstract.aux
 A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/peman.aux
 A level-1 auxiliary file: chapters/cnn.aux
@@ -32,7 +33,7 @@ Warning--empty year in 8961101
 Done.
 You've used 6 entries,
             4087 wiz_defined-function locations,
-            1379 strings with 20142 characters,
+            1380 strings with 20163 characters,
 and the built_in function-call counts, 5369 in all, are:
 = -- 269
 > -- 360
