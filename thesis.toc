@@ -25,5 +25,8 @@
 \contentsline {section}{\numberline {3.3}Timing Diagram}{19}{}%
 \contentsline {chapter}{\numberline {4}Handwritten Text Detection using PEMAN based CNN architecture}{21}{}%
 \contentsline {section}{\numberline {4.1}Optimization}{22}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{25}{}%
-\contentsline {chapter}{References}{27}{}%
+\contentsline {chapter}{\numberline {5}PEMAN and CNN using random convolutions}{25}{}%
+\contentsline {chapter}{\numberline {6}Conclusion and Future Works}{29}{}%
+\contentsline {section}{\numberline {6.1}Conclusion}{29}{}%
+\contentsline {section}{\numberline {6.2}Future Works}{29}{}%
+\contentsline {chapter}{References}{31}{}%
