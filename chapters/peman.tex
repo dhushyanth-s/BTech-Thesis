@@ -38,6 +38,252 @@ Figure \ref{propPEMAN} depicts the structure that is used in this thesis as the 
 	\label{propPEMAN}
 \end{figure}
 
+The phase shifters $\phi_1, \phi_2$ and $ \phi_3, \phi_4$ act as a push-pull phase shifter pair respectively. This can be simplified to one phase shifter each as shown in figure \ref{propPEMAN2}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{images/propPEMAN2.png}
+	\caption{Simplified schematic diagram of the PEMAN structure}
+	\label{propPEMAN2}
+\end{figure}
+
+This simplified form can then be analyzed to study the input intensity and output intensity correlation.
+
+For initial directional coupler, input fields are $E_{in}$ and $0$.
+
+The transfer matrix of directional coupler is given as follows
+
+$$
+TM = \begin{bmatrix}  
+\sqrt{1-\alpha} & j\sqrt{\alpha}\\  
+j\sqrt{\alpha} & \sqrt{1-\alpha}  
+\end{bmatrix} 
+$$
+
+ Directional Coupler $(1)$
+
+Using the transfer matrix matrix defined above, we get
+
+$$
+\begin{bmatrix}  
+E_1\\  
+E_2 
+\end{bmatrix} = \begin{bmatrix}  
+\sqrt{1-\alpha} & j\sqrt{\alpha}\\  
+j\sqrt{\alpha} & \sqrt{1-\alpha}  
+\end{bmatrix} \begin{bmatrix}  
+E_{in}\\  
+0  
+\end{bmatrix} 
+$$
+Assuming the directional coupler are $50\%$ coupled, we replace $\alpha = \frac 1 2$ 
+
+$$
+\begin{bmatrix}  
+E_1\\  
+E_2 
+\end{bmatrix} = \frac {1} {\sqrt{2}}\begin{bmatrix}  
+1 & j\\  
+j & 1  
+\end{bmatrix} \begin{bmatrix}
+E_{in}\\  
+0  
+\end{bmatrix} 
+$$
+This gives us
+
+$$
+\begin{aligned}
+E_1 &=& \frac {E_{in}} {\sqrt{2}} \\
+E_2 &=& \frac {j} {\sqrt{2}} E_{in}
+\end{aligned}
+$$
+ First Modulator
+
+After the first modulator $\phi_1$, the field is as follows
+
+$$
+\begin{aligned}
+E_3 &=& E_1 &=& \frac {E_{in}} {\sqrt{2}} \\
+E_4 &=& E_2 e^{j\phi_1} &=& \frac {j} {\sqrt{2}} E_{in}e^{j\phi_1}
+\end{aligned}
+$$
+ Directional Coupler $(2)$
+
+Using the values of $E_3$ and $E_4$ from equations $(6)$ and $(7)$ ,
+
+$$
+\begin{aligned}
+\begin{bmatrix}
+E_{5}\\
+E_{6}
+\end{bmatrix} &=& \frac{1}{\sqrt{ 2 }}\begin{bmatrix}
+1 & j\\
+j & 1
+\end{bmatrix}\begin{bmatrix}
+E_{3}\\
+E_{4}
+\end{bmatrix}\\
+%%%%
+&=& \frac{1}{\sqrt{ 2 }}\begin{bmatrix}
+1 & j \\
+1 & j
+\end{bmatrix}\begin{bmatrix}
+\frac{E_{in}}{\sqrt{ 2 }} \\
+\frac{j}{\sqrt{ 2 }}E_{in}e^{j\phi_{1}}
+\end{bmatrix} \\
+%%%%
+&=& \frac{E_{in}}{2}\begin{bmatrix}
+1 & j \\
+1 & j
+\end{bmatrix}\begin{bmatrix}
+1 \\
+je^{j\phi_{1}}
+\end{bmatrix}\\
+%%%%
+&=& \frac{E_{in}}{2}\begin{bmatrix}
+1 - e^{j\phi_{1}} \\
+j(1+e^{j\phi_{1}})
+\end{bmatrix}
+\end{aligned}
+$$
+
+Therefore, we get
+$$
+\begin{aligned}
+E_{5} &=& {\frac{E_{in}}{2}}(1 - e^{j\phi_{1}})\\
+E_{6} &=& {\frac{E_{in}}{2}}j(1+e^{j\phi_{1}})
+\end{aligned}
+$$
+
+We can ignore $E_{6}$ since it is not being used as input.
+
+Therefore, the electric field which represents the inputs of MAC operation can be represented as 
+
+$$
+E_{input} = \frac{E_{in}}{2}(1-e^{j\phi_{1}})
+$$
+
+ MultiMode Interferometer (MMI)
+
+The field is split into two fields having equal power.
+
+Thus,
+
+$$
+E_{7} = E_{8} = \frac{E_{5}}{\sqrt{ 2 }} = \frac{E_{in}}{2\sqrt{ 2 }}(1-e^{j\phi_{1}})
+$$
+
+Getting current equivalent to this field gives us
+
+$$
+I = |1 - \cos\phi_{1} - j \sin\phi_{1}|^2 =  2 - 2 \cos\phi_{1}
+$$
+
+ Modulating for Weight Setting
+
+The field which is the output of input modulation is further modulated with weight factor to emulate the multiplication process.  We do this process separately to simplify the inputs
+
+ Second Modulator
+
+After the modulator $\phi_{2}$, we get,
+
+$$
+\begin{aligned}
+E_{9} &=&  \frac{E}{\sqrt{ 2 }} \\
+E_{10} &=& \frac{E}{\sqrt{ 2 }}e^{j\phi_{2}}
+\end{aligned}
+$$
+
+ Directional Coupler $(3)$
+
+Applying the transfer function,
+
+$$
+\begin{aligned}
+\begin{bmatrix}
+E_{11} \\ E_{12}
+\end{bmatrix} &=& \begin{bmatrix}
+\sqrt{ 1-\alpha } & j\sqrt{ \alpha } \\
+j\sqrt{ \alpha } & \sqrt{ 1-\alpha }
+\end{bmatrix}\begin{bmatrix}
+E_{9} \\
+E_{10} 
+\end{bmatrix}\\
+&=& \begin{bmatrix}
+\sqrt{ 1-\alpha } & j\sqrt{ \alpha } \\
+j\sqrt{ \alpha } & \sqrt{ 1-\alpha }
+\end{bmatrix} \begin{bmatrix}
+1 \\
+e^{j\phi_{2}}
+\end{bmatrix}\\
+&=& \frac{E_{in}}{2\sqrt{ 2 }}\begin{bmatrix}
+\sqrt{ 1-\alpha } & j\sqrt{ \alpha } \\
+j\sqrt{ \alpha } & \sqrt{ 1-\alpha }
+\end{bmatrix} \begin{bmatrix}
+1 \\
+e^{j\phi_{2}}
+\end{bmatrix}
+\end{aligned}
+$$
+Applying $\alpha = \frac{1}{2}$ in eqn $(14)$,
+
+$$
+\begin{bmatrix}
+E_{11} \\
+E_{12} \\
+\end{bmatrix} = \frac{E_{in}}{4} \begin{bmatrix}
+1 & j \\
+j & 1
+\end{bmatrix}\begin{bmatrix}
+1 \\
+e^{j\phi_{2}}
+\end{bmatrix}
+$$
+
+Expanding,
+
+$$
+\begin{aligned}
+E_{11} &=& E(1+je^{j\phi_{2}})\\
+E_{12} &=& E(j+e^{j\phi_{2}})
+\end{aligned}
+$$
+
+ Intensity Reading
+
+For the final output that is the intensity reading, we take,
+
+$$
+I = |E|^2
+$$
+Taking Modulus for $E_{11}$ and $E_{12}$, we get,
+
+$$
+\begin{aligned}
+|E_{11}|^2 &=& |1 + j\cos\phi_{2} - \sin\phi_{2}|^2\\
+&=& \left(1-\sin(\phi_{1})\right)^2 + (\cos{\phi_{2}})^2\\
+&=& 2 - 2\sin\phi_{2}
+\end{aligned}
+$$
+
+and 
+
+$$
+\begin{aligned}
+|E_{12}|^2 &=& |j + \cos\phi_{2} + j\sin\phi_{2}|^2\\
+&=& \left(1+\sin(\phi_{1})\right)^2 + (\cos{\phi_{2}})^2\\
+&=& 2 + 2\sin\phi_{2}
+\end{aligned}
+$$
+Therefore, after subtracting them, we get
+
+$$
+|E_{11}|^2 - |E_{12}|^2 = 4\sin\phi_{2}
+$$
+
+
+
 \subsection{Analog Electronics Section}
 
 The analog electronics domain consists of a capacitor and a differential amplifier. These two components together is used as an accumulator to achieve the addition part in a neuron. Once the capacitor stores all the output produced by the photonics part, it is discharged into the next stage.
