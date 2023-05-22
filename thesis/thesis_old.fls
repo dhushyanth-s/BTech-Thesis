@@ -1,6 +1,0 @@
-PWD /Users/dhushyanth/Study/BTP/BTech-Thesis
-INPUT /usr/local/texlive/2023basic/texmf.cnf
-INPUT /usr/local/texlive/2023basic/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2023basic/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/dhushyanth/Study/BTP/BTech-Thesis/thesis_old.tex
-OUTPUT thesis_old.log
