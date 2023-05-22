@@ -1,0 +1,68 @@
+\documentclass {CSEThesis}
+% Standard packages
+\usepackage{amsmath}        % Extra math definitions
+\usepackage{graphics}       % PostScript figures
+\usepackage{setspace}       % 1.5 spacing
+%\usepackage{psfig,epsfig}
+\usepackage{multicol}
+\usepackage{subfig}
+\usepackage{epsfig,color}
+% Custom packages
+%\usepackage[first]{datestamp}   % Datestamp on first page of each chapter
+
+
+\usepackage{color}
+%===== page layout
+% Define the side margins for a right-side page
+%\insidemargin = 1.3in \outsidemargin = 0.9in
+% Above margin is space above the header
+% Below margin is space below footer
+%\abovemargin = 1.5in \belowmargin = 0.05in
+
+
+\btptitle = {Photonic Neuron for Artifical Neural Networks} % { and } are needed around your name
+\name = {Dhushyanth S}          % and other feilds. don't remove.
+\rollno = {1901EE20} \email = {dhushyanth_1901ee20@iitp.ac.in} \guide = {Dr. Sumanta Gupta}
+
+
+\begin{document}
+
+\include{chapters/title}
+\cleardoublepage
+\include{chapters/certificate}
+\cleardoublepage
+\include{chapters/acknowledgement}
+\cleardoublepage
+\include{chapters/abstract}
+\cleardoublepage
+\tableofcontents
+\cleardoublepage
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+\cleardoublepage
+\pagenumbering{arabic}
+\def\headrulehook{\color{black}}      % Color the header rule
+
+%========== Chapters
+\typeout{}
+\include{chapters/introduction}
+\cleardoublepage
+\typeout{}
+\include{chapters/peman}
+\cleardoublepage
+\typeout{}
+\include{chapters/cnn}
+\cleardoublepage
+\typeout{}
+\include{chapters/PemanCnn}
+\cleardoublepage
+\typeout{}
+\include{chapters/randomScanning}
+\cleardoublepage
+\typeout{}
+\include{chapters/futurework}
+\typeout{}
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,btp}
+\end{document}
