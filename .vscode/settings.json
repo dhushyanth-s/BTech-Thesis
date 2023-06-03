@@ -17,5 +17,6 @@
 		"**/*.toc": true,
 		"**/*.fdb_latexmk": true,
 		"**/*.synctex.gz": true,
+		"**/*.synctex(busy)": true,
 	}
 }

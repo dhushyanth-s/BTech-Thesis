@@ -34,7 +34,7 @@
 	\RequirePackage{pagecolor}
 	\RequirePackage{xcolor}
 	
-	\definecolor{DarkGrey}{HTML}{363636}
+	\definecolor{DarkGrey}{HTML}{121212}
 	
 	\pagecolor{DarkGrey}
 	\color{white}
