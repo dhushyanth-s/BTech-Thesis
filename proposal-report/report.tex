@@ -137,6 +137,12 @@ Upon calculating this point by differentiating and finding its roots, we get the
 
 At this point, the time taken for the PEMAN structure to successfully emulate the convolution operation is maximum.
 
+\section{Quantization}
+
+Using the architecture and emulation technique outlined in this report, all the quantization studies done for the PEMAN structure can be directly applied and utilized.
+
+The complexity of the model is not affected by the requirement of quantization since all the multiplication and addition are handled by the PEMAN structure, which handles the quantization internally. The only change that needs to be done is the quantization of the input image, which can be done by the host processor before sending the image to the PEMAN structure.
+
 \section{Conclusion}
 
 In this short study, we have seen how the PEMAN structure can be used to emulate the convolution operation in a CNN. We have seen that the PEMAN structure can be efficiently used to emulate the convolution layer, which opens many possibilities for the structure. The relation between kernel size and the time taken for the convolution layer was also studied in detail. This can be used to determine the optimal kernel size for a given image and model requirements.
